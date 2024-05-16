@@ -92,19 +92,19 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "name": "Tracey Schroeder",
-    "username": "Abraham_Larson",
-    "email": "Shea.Keebler22@hotmail.com",
-    "phone": "624-712-4977 x72469",
-    "website": "afton.net",
+    "name": "Nellie Grant",
+    "username": "Price.Corkery",
+    "email": "Camron35@yahoo.com",
+    "phone": "(233) 270-2317 x362",
+    "website": "lucas.biz",
     "company": {
-      "name": "Greenholt, Green and Miller",
-      "catchPhrase": "Upgradable high-level standardization",
-      "bs": "utilize strategic infrastructures"
+      "name": "Smitham - Zieme",
+      "catchPhrase": "Realigned discrete definition",
+      "bs": "enable holistic e-business"
     },
-    "gender": "Male",
-    "birthdate": "1978-05-20",
-    "cell": "(449) 244-3004 x56318"
+    "gender": "Female",
+    "birthdate": "1971-04-08",
+    "cell": "316-912-4573 x7586"
   }
 }
 ```
