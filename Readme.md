@@ -1,4 +1,4 @@
-Random Identity API
+Random Identity Generator API
 ============
 
 Random Identity is a simple tool for generating random identities. It returns a random name, address, and more.
@@ -7,7 +7,7 @@ Random Identity is a simple tool for generating random identities. It returns a 
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a .NET Wrapper for the [Random Identity API](https://apiverve.com/marketplace/api/randomidentitygenerator)
+This is a .NET Wrapper for the [Random Identity Generator API](https://apiverve.com/marketplace/api/randomidentitygenerator)
 
 ---
 
@@ -15,17 +15,17 @@ This is a .NET Wrapper for the [Random Identity API](https://apiverve.com/market
 
 Using the .NET CLI:
 ```
-dotnet add package APIVerve.API.RandomIdentity
+dotnet add package APIVerve.API.RandomIdentityGenerator
 ```
 
 Using the Package Manager:
 ```
-nuget install APIVerve.API.RandomIdentity
+nuget install APIVerve.API.RandomIdentityGenerator
 ```
 
 Using the Package Manager Console:
 ```
-Install-Package APIVerve.API.RandomIdentity
+Install-Package APIVerve.API.RandomIdentityGenerator
 ```
 
 From within Visual Studio:
@@ -33,8 +33,8 @@ From within Visual Studio:
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
 3. Click on Manage NuGet Packages...
-4. Click on the Browse tab and search for "APIVerve.API.RandomIdentity".
-5. Click on the APIVerve.API.RandomIdentity package, select the appropriate version in the right-tab and click Install.
+4. Click on the Browse tab and search for "APIVerve.API.RandomIdentityGenerator".
+5. Click on the APIVerve.API.RandomIdentityGenerator package, select the appropriate version in the right-tab and click Install.
 
 
 ---
@@ -48,17 +48,17 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The Random Identity API documentation is found here: [https://docs.apiverve.com/api/randomidentitygenerator](https://docs.apiverve.com/api/randomidentitygenerator).  
+The Random Identity Generator API documentation is found here: [https://docs.apiverve.com/api/randomidentitygenerator](https://docs.apiverve.com/api/randomidentitygenerator).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
 ###### Authentication
-Random Identity API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
+Random Identity Generator API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
 
 ```
 // Create an instance of the API client
-var apiClient = new RandomIdentityAPIClient("[YOUR_API_KEY]", true);
+var apiClient = new RandomIdentityGeneratorAPIClient("[YOUR_API_KEY]", true);
 ```
 
 ---
@@ -92,19 +92,19 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "name": "Nellie Grant",
-    "username": "Price.Corkery",
-    "email": "Camron35@yahoo.com",
-    "phone": "(233) 270-2317 x362",
-    "website": "lucas.biz",
+    "name": "Mr. Theodore Hyatt",
+    "username": "Zachery.Veum29",
+    "email": "Keyshawn_Schuppe@gmail.com",
+    "phone": "502-728-4808 x54400",
+    "website": "marta.net",
     "company": {
-      "name": "Smitham - Zieme",
-      "catchPhrase": "Realigned discrete definition",
-      "bs": "enable holistic e-business"
+      "name": "Walker Group",
+      "catchPhrase": "Innovative web-enabled capability",
+      "bs": "reintermediate mission-critical metrics"
     },
     "gender": "Female",
-    "birthdate": "1971-04-08",
-    "cell": "316-912-4573 x7586"
+    "birthdate": "1955-10-30",
+    "cell": "814.554.6215"
   }
 }
 ```
