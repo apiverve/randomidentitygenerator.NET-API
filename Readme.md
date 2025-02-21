@@ -32,9 +32,9 @@ From within Visual Studio:
 
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
-3. Click on Manage NuGet Packages...
+3. Click on Manage NuGet Packages..
 4. Click on the Browse tab and search for "APIVerve.API.RandomIdentityGenerator".
-5. Click on the APIVerve.API.RandomIdentityGenerator package, select the appropriate version in the right-tab and click Install.
+5. Click on the APIVerve.API.RandomIdentityGenerator package, click Install.
 
 
 ---
@@ -92,19 +92,19 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "name": "Eula Olson V",
-    "username": "Charlene58",
-    "email": "Rowena51@gmail.com",
-    "phone": "(538) 955-4565 x08442",
-    "website": "jackeline.info",
+    "name": "Candace Hauck",
+    "username": "Efren_Kozey",
+    "email": "Nickolas.Herman@gmail.com",
+    "phone": "(524) 820-4614 x1999",
+    "website": "louie.info",
     "company": {
-      "name": "Kerluke - Blanda",
-      "catchPhrase": "Multi-layered non-volatile matrix",
-      "bs": "grow intuitive content"
+      "name": "Osinski, Schuppe and Pfannerstill",
+      "catchPhrase": "Fully-configurable analyzing artificial intelligence",
+      "bs": "productize viral schemas"
     },
     "gender": "Female",
-    "birthdate": "1978-10-22",
-    "cell": "542.456.9190 x6515"
+    "birthdate": "1961-08-22",
+    "cell": "1-275-508-8744 x80019"
   },
   "code": 200
 }
@@ -132,7 +132,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
